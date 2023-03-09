@@ -8,13 +8,6 @@
 <link rel="stylesheet" href="navstyle.css">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
-
-
-<meta charset="UTF-8">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
-<style>
-
 <style>
 
 </style>
@@ -70,7 +63,7 @@
 
   
     <ul>
-      <li><a href="index.html">Home</a></li>
+      <li><a href="#">Home</a></li>
       <li><a href="blog.html">Blog</a></li>
       <li><a href="#">Contact</a></li>
       <li><a href="#">More</a></li>
@@ -81,320 +74,78 @@
 
 </div>
 
-<br><br>
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1400px">
+
+<!-- Header -->
+<header class="w3-container w3-center w3-padding-32"> 
+  <h1><b>MY BLOG</b></h1>
+  <p><span class="w3-tag">Hola!</span><p></p>Welcome to my Blog </p>
+</header>
+
 <!-- Grid -->
-  <div class="w3-row w3-padding w3-border" style="margin: 100px;">
+<div class="w3-row">
 
-    <!-- Blog entries -->
-    <div class="w3-col l8 s12">
-    
-      <!-- Blog entry -->
-      <div class="w3-container w3-white w3-margin w3-padding-large">
-        <div class="w3-center">
-          <h3>ROAD TRIP TO "DRIES UP QUICKLY" CITY OF MATI, DAVAO ORIENTAL</h3>
-          <h5><span class="w3-opacity">Feb 2, 2023</span></h5>
-        </div>
-
-        <div class="w3-justify">
-          <img src="images/mati-davao.jpg" alt="Girl Hat" style="width:100%" class="w3-padding-16">
-          <p>We last visited Mati, Davao Oriental, months ago. Yet I can still clearly remember the adventure we had, especially on the trip there. You might want to think about visiting the City of Mati in the province of Davao Oriental in addition to touring Davao City and Samal Island. It is also well recognized for being a beach resort. The following is the text from the article.</p>
-          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
-          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies  </b> <span class="w3-tag w3-white">1</span></button></p>
-          <p class="w3-clear"></p>
-          <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
-            <hr>
-              <div class="w3-col l2 m3">
-                <img src="/w3images/avatar_smoke.jpg" style="width:90px;">
-              </div>
-              <div class="w3-col l10 m9">
-                <h4>George <span class="w3-opacity w3-medium">May 3, 2015, 6:32 PM</span></h4>
-                <p>Great blog post! Following</p>
-              </div>
-          </div>
-        </div>
-      </div>
-      <hr>
-
-      <!-- Blog entry -->
-      <div class="w3-container w3-white w3-margin w3-padding-large">
-        <div class="w3-center">
-          <h3>A LITTLE ADVENTURE ON OUR WAY TO MATI</h3>
-          <h5><span class="w3-opacity">April 23, 2023</span></h5>
-        </div>
-
-        <div class="w3-justify">
-          <img src="images/mati2.jpg" alt="Men in Hats" style="width:100%" class="w3-padding-16">
-          <p>After seeing Samal Island as part of our Davao itinerary, we drove the about three to four hours to Mati from Davao City. Waze and Google Maps were our family because I am not familiar with the roads and this is my first time driving around in this area.
-<p>
-The Pan-Philippine Highway was reached after we traveled the Davao City-Panabon City Road. We were supposed to turn right on Surigao-Davao Coastal Road, but our map probably wanted us to have a little adventure.</p>
-
-<p>Until we reached Timog Avenue, then to Apokon Road, and eventually to Surigao-Davao Coastal Road, we were directed to a little area in Tagum with winding, uneven, and muddy roads. Umikot kami at napalayo, to put it simply. .</p>
-<p>
-Along the Surigao-Davao Coastal Road, which will pass by some Davao de Oro municipalities, our second leg of the journey began (formerly known as Compostela Valley). I was first taking in the music, the kulitan with family, and the mountainous scenery (be prepared for curve/zigzag roads) when it started to pour so heavily. Zero visibility existed. Consider driving in an unfamiliar place in a lightly inhabited area with a strong rain. Isn't that worrisome? I believed I was in charge of ensuring everyone's security.
-
-My study indicates that the province typically experiences year-round rain and warm, muggy temperatures. We are blessed to be safe. At some time, it became dry, and as we continued traveling, the sun came out.</p>
-          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
-          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo2')"><b>Replies  </b> <span class="w3-tag w3-white">2</span></button></p>
-          <p class="w3-clear"></p>
-          
-          <!-- Example of comment field -->
-          <div id="demo2" style="display:none">
-            <div class="w3-row">
-              <hr>
-              <div class="w3-col l2 m3">
-                <img src="/w3images/girl_train.jpg" style="width:90px;">
-              </div>
-              <div class="w3-col l10 m9">
-                <h4>Amber <span class="w3-opacity w3-medium">April 26, 2015, 10:52 PM</span></h4>
-                <p>Love your blog page! Simply the best! </p><br>
-              </div>
-            </div>
-            <div class="w3-row w3-margin-bottom">
-              <div class="w3-col l2 m3">
-                <img src="/w3images/girl.jpg" style="width:90px;">
-              </div>
-              <div class="w3-col l10 m9">
-                <h4>Angie <span class="w3-opacity w3-medium">April 23, 2015, 9:12 PM</span></h4>
-                <p>Love hats!!</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-     
-    
-      <!-- Blog entry -->
-      <div class="w3-container w3-white w3-margin w3-padding-large">
-        <div class="w3-center">
-          <h3>QUICK STOP AT THE DINOSAUR SLEEPING VIEW DECK</h3>
-          <h5><span class="w3-opacity">Jan 2, 2023</span></h5>
-        </div>
-
-        <div class="w3-justify">
-          <img src="images/mati6.jpg" alt="Runway" style="width:100%" class="w3-padding-16">
-          <img src="images/mati7.jpg" alt="Runway" style="width:100%" class="w3-padding-16">
-          <p>Upon leaving Davao City, we made our first stop at the Sleeping Dinosaur View Deck. It is a well-known rest stop on the road to Badas Point, Brgy, which is where the City of Mati is situated. Dawan. Around Pujada Bay, you may observe an island that resembles a dinosaur dozing peacefully on its belly. The view is really lovely and peaceful from the deck. Before getting back on the road, we snapped a few pictures of the island. There aren't many vendors selling snacks either.</p>
-          <p>
-By the way, before reaching the sleeping dinosaur view deck, you will pass by Davao Oriental Arc which you can stop by for a photo op as well.</p>
-          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
-          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo3')"><b>Replies  </b> <span class="w3-tag w3-white">3</span></button></p>
-          <p class="w3-clear"></p>
-          
-          <!-- Example of comment field -->
-          <div id="demo3" style="display:none">
-            <hr>
-            <div class="w3-row w3-margin-bottom">
-              <div class="w3-col l2 m3">
-                <img src="/w3images/girl_mountain.jpg" style="width:90px;">
-              </div>
-              <div class="w3-col l10 m9">
-                <h4>Jane <span class="w3-opacity w3-medium">April 10, 2015, 7:22 PM</span></h4>
-                <p>That was a great runway show! Thanks for everything.</p>
-              </div>
-            </div>
-            <div class="w3-row w3-margin-bottom">
-              <div class="w3-col l2 m3">
-                <img src="/w3images/boy.jpg" style="width:90px;">
-              </div>
-              <div class="w3-col l10 m9">
-                <h4>John <span class="w3-opacity w3-medium">April 8, 2015, 10:32 PM</span></h4>
-                <p>Keep up the GREAT work! I am cheering for you!! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-              </div>
-            </div>
-            <div class="w3-row w3-margin-bottom">
-              <div class="w3-col l2 m3">
-                <img src="/w3images/girl_hood.jpg" style="width:90px;">
-              </div>
-              <div class="w3-col l10 m9">
-                <h4>Anja <span class="w3-opacity w3-medium">April 7, 2015, 9:12 PM</span></h4>
-                <p>Cant wait for the runway to start!</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> 
-      
-   
-    <!-- Blog entry -->
-      <div class="w3-container w3-white w3-margin w3-padding-large">
-        <div class="w3-center">
-          <h3><strong>THE CITY OF MATI</strong></h3>
-          <h5><span class="w3-opacity">Jan 2, 2023</span></h5>
-        </div>
-
-        <div class="w3-justify">
-          <img src="images/ilovemati.jpg" alt="Runway" style="width:100%" class="w3-padding-16">
-          <p>We stopped by Ciangi Restaurant for our very late lunch. Ciangi is a known restaurant in Mati. It is situated near the bay walk area. The restaurant is spacious, and the food is affordable. I just noticed that in Mati, ginger is mostly present in their local dishes (or maybe it’s a staple in the region because I also noticed that when we were in Samal).
-
-</p>
-          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
-          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo3')"><b>Replies  </b> <span class="w3-tag w3-white">3</span></button></p>
-          <p class="w3-clear"></p>
-          
-          <!-- Example of comment field -->
-          <div id="demo3" style="display:none">
-            <hr>
-            <div class="w3-row w3-margin-bottom">
-              <div class="w3-col l2 m3">
-                <img src="/w3images/girl_mountain.jpg" style="width:90px;">
-              </div>
-              <div class="w3-col l10 m9">
-                <h4>Jane <span class="w3-opacity w3-medium">April 10, 2015, 7:22 PM</span></h4>
-                <p>That was a great runway show! Thanks for everything.</p>
-              </div>
-            </div>
-            <div class="w3-row w3-margin-bottom">
-              <div class="w3-col l2 m3">
-                <img src="/w3images/boy.jpg" style="width:90px;">
-              </div>
-              <div class="w3-col l10 m9">
-                <h4>John <span class="w3-opacity w3-medium">April 8, 2015, 10:32 PM</span></h4>
-                <p>Keep up the GREAT work! I am cheering for you!! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-              </div>
-            </div>
-            <div class="w3-row w3-margin-bottom">
-              <div class="w3-col l2 m3">
-                <img src="/w3images/girl_hood.jpg" style="width:90px;">
-              </div>
-              <div class="w3-col l10 m9">
-                <h4>Anja <span class="w3-opacity w3-medium">April 7, 2015, 9:12 PM</span></h4>
-                <p>Cant wait for the runway to start!</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-       <!-- Blog entry -->
-      <div class="w3-container w3-white w3-margin w3-padding-large">
-        <div class="w3-center">
-          <h3>CHECK-IN AT OK HOTEL RESORT</h3>
-          <h5><span class="w3-opacity">Jan 2, 2023</span></h5>
-        </div>
-
-        <div class="w3-justify">
-          <img src="images/hotel.jpg" alt="Runway" style="width:100%" class="w3-padding-16">
-          <p>After exploring the city, we hit the road again before it nearly gets dark. We went straight to OK HOTEL RESORT to check-in. The resort is located along Dahican-Bobon Road in Mati, and it is approximately 14 kilometers from the city proper.
-
-</p>
-          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
-          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo3')"><b>Replies  </b> <span class="w3-tag w3-white">3</span></button></p>
-          <p class="w3-clear"></p>
-          
-          <!-- Example of comment field -->
-          <div id="demo3" style="display:none">
-            <hr>
-            <div class="w3-row w3-margin-bottom">
-              <div class="w3-col l2 m3">
-                <img src="/w3images/girl_mountain.jpg" style="width:90px;">
-              </div>
-              <div class="w3-col l10 m9">
-                <h4>Jane <span class="w3-opacity w3-medium">April 10, 2015, 7:22 PM</span></h4>
-                <p>That was a great runway show! Thanks for everything.</p>
-              </div>
-            </div>
-            <div class="w3-row w3-margin-bottom">
-              <div class="w3-col l2 m3">
-                <img src="/w3images/boy.jpg" style="width:90px;">
-              </div>
-              <div class="w3-col l10 m9">
-                <h4>John <span class="w3-opacity w3-medium">April 8, 2015, 10:32 PM</span></h4>
-                <p>Keep up the GREAT work! I am cheering for you!! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-              </div>
-            </div>
-            <div class="w3-row w3-margin-bottom">
-              <div class="w3-col l2 m3">
-                <img src="/w3images/girl_hood.jpg" style="width:90px;">
-              </div>
-              <div class="w3-col l10 m9">
-                <h4>Anja <span class="w3-opacity w3-medium">April 7, 2015, 9:12 PM</span></h4>
-                <p>Cant wait for the runway to start!</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-   
-     <!-- Blog entry -->
-      <div class="w3-container w3-white w3-margin w3-padding-large">
-        <div class="w3-center">
-          <h3>A NOT-SO EARLY MORNING DIP AT DAHICAN BEACH</h3>
-          <h5><span class="w3-opacity">Jan 2, 2023</span></h5>
-        </div>
-
-        <div class="w3-justify">
-          <img src="images/mati5.jpg" alt="Runway" style="width:100%" class="w3-padding-16">
-          <p>The following day, we headed to Dahican Beach for a morning swim, which is only 30 minutes away from OK HOTEL. Dahican Beach is a 7-km stretch of white sand and blue sea that is formed like a crescent. As it strikes the shoreline, large waves may be seen. It is understandable why Dahican is a popular surfing and skimboarding location. You can rent a surfboard and pay a surf teacher if you want to learn how to surf.
-
-</p>  
-
-          <img src="images/mati1.jpg" alt="Runway" style="width:100%" class="w3-padding-16">
-<p>neither tried to surf nor ventured further into the sea. I tried, but nevertheless, I felt terrified kasi sobrang natatangay ako ng alon. Even with just the right amount of sea water crashing through me, I still enjoyed myself at the seaside. my cousin were fun to be with, so no dull moments
-</p>
-          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
-          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo3')"><b>Replies  </b> <span class="w3-tag w3-white">3</span></button></p>
-          <p class="w3-clear"></p>
-          
-          <!-- Example of comment field -->
-          <div id="demo3" style="display:none">
-            <hr>
-            <div class="w3-row w3-margin-bottom">
-              <div class="w3-col l2 m3">
-                <img src="/w3images/girl_mountain.jpg" style="width:90px;">
-              </div>
-              <div class="w3-col l10 m9">
-                <h4>Jane <span class="w3-opacity w3-medium">April 10, 2015, 7:22 PM</span></h4>
-                <p>That was a great runway show! Thanks for everything.</p>
-              </div>
-            </div>
-            <div class="w3-row w3-margin-bottom">
-              <div class="w3-col l2 m3">
-                <img src="/w3images/boy.jpg" style="width:90px;">
-              </div>
-              <div class="w3-col l10 m9">
-                <h4>John <span class="w3-opacity w3-medium">April 8, 2015, 10:32 PM</span></h4>
-                <p>Keep up the GREAT work! I am cheering for you!! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-              </div>
-            </div>
-            <div class="w3-row w3-margin-bottom">
-              <div class="w3-col l2 m3">
-                <img src="/w3images/girl_hood.jpg" style="width:90px;">
-              </div>
-              <div class="w3-col l10 m9">
-                <h4>Anja <span class="w3-opacity w3-medium">April 7, 2015, 9:12 PM</span></h4>
-                <p>Cant wait for the runway to start!</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-  
-<h2 style="font-size:22px"><strong>GETTING TO MATI CITY</strong></h2>
-<ul type="1">
-<li>Plan a trip to Davao City. Daily flights to Davao are provided by Cebu Pacific, Philippine Airlines, and Air Asia.</li>
-<li>Go to Ecoland Transport Terminal from Davao International Airport to get a bus to Mati, Davao Oriental.</li>
-<li>At the Mati City Bus Terminal, get off. From there, you may get on a tricycle and travel the city at will. If you're going from Mati to nearby towns, jeepneys are also an option.</li>
-</ul>
-
-    <!-- END BLOG ENTRIES -->
+<!-- Blog entries -->
+<div class="w3-col l8 s12">
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+    <img src="images/mati7.jpg" alt="Nature" style="width:100%">
+    <div class="w3-container">
+      <h3><b>ROAD TRIP TO "DRIES UP QUICKLY" CITY OF MATI, DAVAO ORIENTAL</b></h3>
+      <h5> <span class="w3-opacity">February 19, 2023</span></h5>
     </div>
 
-    <!-- About/Information menu -->
-    <div class="w3-col l4">
-      <!-- About Card -->
-      <div class="w3-white w3-margin">
-        <img src="images/profile.jpg" alt="Jane" style="width:100%">
-        <div class="w3-container w3-white">
-          <h4>Hi! I'm Hershey, a BS International Tourism Management 3rd year of IMS , from Rosario, Agusan del Sur who adores to see the world and spend time in the great outdoors. I enjoy the fact that my travel experiences teach me things and help me create memories!
+    <div class="w3-container">
+      <p>We last visited Mati, Davao Oriental, months ago. Yet I can still clearly remember the adventure we had, especially on the trip there. You might want to think about visiting the City of Mati in the province of Davao Oriental in addition to touring Davao City and Samal Island. It is also well recognized for being a beach resort. The following is the text from the article.</p>
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          <p><button class="w3-button w3-padding-large w3-white w3-border"><b><a href="blog.html">READ MORE »</a></b></button></p>
+        </div> 
+        <div class="w3-col m4 w3-hide-small">
+          <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-tag">0</span></span></p>
         </div>
       </div>
-      <hr>
+    </div>
+  </div>
+  <hr>
 
-      <!-- Posts -->
-      <div class="w3-white w3-margin">
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+  <img src="/w3images/bridge.jpg" alt="Norway" style="width:100%">
+    <div class="w3-container">
+      <h3><b>BLOG ENTRY</b></h3>
+      <h5>Title description, <span class="w3-opacity">April 2, 2014</span></h5>
+    </div>
+
+    <div class="w3-container">
+      <p>We last visited Mati, Davao Oriental, months ago. Yet I can still clearly remember the adventure we had, especially on the trip there. You might want to think about visiting the City of Mati in the province of Davao Oriental in addition to touring Davao City and Samal Island. It is also well recognized for being a beach resort. The following is the text from the article.</p>
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
+        </div>
+        <div class="w3-col m4 w3-hide-small">
+          <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-badge">2</span></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- END BLOG ENTRIES -->
+</div>
+
+<!-- Introduction menu -->
+<div class="w3-col l4">
+  <!-- About Card -->
+  <div class="w3-card w3-margin w3-margin-top">
+  <img src="images/profile.jpg" style="width:100%">
+    <div class="w3-container w3-white">
+      <h4>Hi! I'm Hershey, a BS International Tourism Management 3rd year of IMS , from Rosario, Agusan del Sur who adores to see the world and spend time in the great outdoors. I enjoy the fact that my travel experiences teach me things and help me create memories!</p>
+    </div>
+  </div><hr>
+  
+  <!-- Posts -->
+   <div class="w3-white w3-margin">
         <div class="w3-container w3-padding w3-black">
           <h4>Popular Posts</h4>
         </div>
@@ -407,127 +158,41 @@ By the way, before reaching the sleeping dinosaur view deck, you will pass by Da
           </li>
         </ul>
       </div>
-      <hr>
-
-      <!-- Advertising -->
-      <div class="w3-white w3-margin">
-        <div class="w3-container w3-padding w3-black">
-          <h4>Advertise</h4>
-        </div>
-        <div class="w3-container w3-white">
-          <div class="w3-container w3-display-container w3-light-grey w3-section" style="height:200px">
-            <span class="w3-display-middle">Google Ads</span>
-          </div>
-        </div>
-      </div>
-      <hr>
-
-      <!-- Tags -->
-      <div class="w3-white w3-margin">
+  <hr> 
+ 
+  <!-- Labels / tags -->
+    <div class="w3-white w3-margin">
         <div class="w3-container w3-padding w3-black">
           <h4>Tags</h4>
         </div>
         <div class="w3-container w3-white">
           <p>
-            <span class="w3-tag w3-black w3-margin-bottom">Fashion</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">London</span>
-            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Hats</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Norway</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Sweaters</span>
-            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Deals</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Accessories</span>
-            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">News</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Clothing</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Shopping</span>
-            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Jeans</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Trends</span>
+            <span class="w3-tag w3-black w3-margin-bottom">Fashion</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Travel Blogs</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Adventure </span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Beach</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Female Traveller</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Family Travel</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Travel Photo</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Tips</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">OK Hotel Resort</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Exploring</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Mati City</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Davao Oriental</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Dahican Beach</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Dinosaur sleeping view deck</span>
           </p>
         </div>
       </div>
-      <hr>
+  
+<!-- END Introduction Menu -->
+</div>
 
-      <!-- Inspiration -->
-      <div class="w3-white w3-margin">
-        <div class="w3-container w3-padding w3-black">
-          <h4>Inspiration</h4>
-        </div>
-        <div class="w3-row-padding w3-white">
-          <div class="w3-col s6">
-            <p><img src="/w3images/jeans.jpg" alt="Jeans" style="width:100%"></p>
-            <p><img src="/w3images/team1.jpg" alt="Jeans" style="width:100%"></p>
-          </div>
-          <div class="w3-col s6">
-            <p><img src="/w3images/avatar_hat.jpg" alt="Men in Hats" style="width:100%" class="w3-grayscale"></p>
-            <p><img src="/w3images/team4.jpg" alt="Jeans" style="width:100%"></p>
-         </div>
-        </div>
-      </div>
-      <hr>
-
-      <div class="w3-white w3-margin">
-        <div class="w3-container w3-padding w3-black">
-          <h4>Follow Me</h4>
-        </div>
-        <div class="w3-container w3-xlarge w3-padding">
-          <i class="fa fa-facebook-official w3-hover-opacity"></i>
-          <i class="fa fa-instagram w3-hover-opacity"></i>
-          <i class="fa fa-snapchat w3-hover-opacity"></i>
-          <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-          <i class="fa fa-twitter w3-hover-opacity"></i>
-          <i class="fa fa-linkedin w3-hover-opacity"></i>
-        </div>
-      </div>
-      <hr>
-      
-      <!-- Subscribe -->
-      <div class="w3-white w3-margin">
-        <div class="w3-container w3-padding w3-black">
-          <h4>Subscribe</h4>
-        </div>
-        <div class="w3-container w3-white">
-          <p>Enter your e-mail below and get notified on the latest blog posts.</p>
-          <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
-          <p><button type="button" onclick="document.getElementById('subscribe').style.display='block'" class="w3-button w3-block w3-red">Subscribe</button></p>
-        </div>
-      </div>
-
-    <!-- END About/Intro Menu -->
-    </div>
-
-  <!-- END GRID -->
-  </div>
+<!-- END GRID -->
+</div><br>
 
 <!-- END w3-content -->
 </div>
 
-<!-- Subscribe Modal -->
-<div id="subscribe" class="w3-modal w3-animate-opacity">
-  <div class="w3-modal-content" style="padding:32px">
-    <div class="w3-container w3-white">
-      <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
-      <h2 class="w3-wide">SUBSCRIBE</h2>
-      <p>Join my mailing list to receive updates on the latest blog posts and other things.</p>
-      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
-      <button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Subscribe</button>
-    </div>
-  </div>
-</div>
-
 <!-- Footer -->
-<footer class="w3-container w3-dark-grey" style="padding:32px">
-  <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-
-<script>
-// Toggle between hiding and showing blog replies/comments
-document.getElementById("myBtn").click();
-function myFunction(id) {
-  var x = document.getElementById(id);
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
-  } else { 
-    x.className = x.className.replace(" w3-show", "");
-  }
-}
-function likeFunction(x) {
-  x.style.fontWeight = "bold";
-  x.innerHTML = "✓ Liked";
-}
-</script>
+<footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
+  <button class="w3-button w3-black w3-disabled w3-padding-large w3-margin-bottom">Previous</button>
+  <button class="w3-button w3-black w3-padding-large w3-margin-bottom">Next »</button>
+</footer>
 
 <p><br></p>
+
 
 </body>
 </html> 
